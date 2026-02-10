@@ -1,0 +1,47 @@
+{
+  "globals": {
+    "storage-user": "DeployGit",
+    "storage-pwd": "25111986",
+    "git-path": "git",
+    "domain-email": "ksudu.ru",
+    "lic-try-count": 5,
+    "plugins": {
+      "enable": [
+        "check-authors",
+        "sync-remote",
+        "increment"
+      ]
+    },
+    "plugins-config": {
+      "push-n-commits": 0,
+      "push-tags": true,
+      "skip-exists-tags": false,
+      "rename-module": true,
+      "rename-form": true,
+      "push": true
+    }
+  },
+  "repositories": [
+    {
+      "name": "otus",
+      "path": "c:/Ksudu/working/!Study/Storages/Storage_Jenkins",
+      "dir": "./src/cf",
+      "temp-dir": "",
+      "v8version": "8.3.25.1374",
+      "plugins-config": {
+        "URL": "https://github.com/Ksudu-hub/Otus_Jenkins.git"
+      }
+    },
+    {
+        "name": "YAXUNIT",
+        "extension": "YAXUNIT",
+        "path": "c:/Ksudu/working/!Study/Storages/Storage_YaxUnit",
+        "dir": "./src/cfe/yaxunit",
+        "temp-dir": "",
+        "v8version": "8.3.25.1374",
+        "plugins-config": {
+          "URL": "https://github.com/Ksudu-hub/Otus_Jenkins.git"
+        }
+     }
+  ]
+}
