@@ -150,9 +150,6 @@
 	<UsedItem>
 		<Metadata>Subsystem.Закупки</Metadata>
 	</UsedItem>
-	<UsedItem>
-		<Metadata>CommonModule.ВходящийЗапросПоделитьсяКлиент</Metadata>
-	</UsedItem>
 	<UnusedItem>
 		<Metadata>Catalog.Встречи.Form.Календарь</Metadata>
 	</UnusedItem>

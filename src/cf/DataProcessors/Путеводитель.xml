@@ -75,7 +75,6 @@
 			<Template>ПрогрессивноеВебПриложение</Template>
 			<Template>ДополнительныеДемонстрационныеРесурсы</Template>
 			<Template>РегулярныеВыражения</Template>
-			<Template>БуферОбмена</Template>
 			<Command uuid="96ef0e75-a210-425d-86d1-beb68cdcf5b1">
 				<Properties>
 					<Name>ПутеводительПоКонфигурации</Name>
