@@ -19,7 +19,6 @@
 	<Events>
 		<Event name="OnReopenFromOtherServer">ПриПереоткрытииСДругогоСервера</Event>
 		<Event name="AfterWriteAtServer">ПослеЗаписиНаСервере</Event>
-		<Event name="OnPasteFromClipboard">ПриВставкеИзБуфераОбмена</Event>
 		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
@@ -181,7 +180,7 @@
 							<NonselectedPictureText>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Перетащите сюда картинку или скопируйте из буфера обмена файл с картинкой
+									<v8:content>Перетащите сюда картинку
 (максимальный размер - 5МБ)</v8:content>
 								</v8:item>
 							</NonselectedPictureText>

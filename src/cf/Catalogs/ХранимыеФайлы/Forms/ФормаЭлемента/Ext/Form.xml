@@ -330,21 +330,6 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="АдресВременногоХранилищаФайла" id="5">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Адрес временного хранилища файла</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>xs:string</v8:Type>
-				<v8:StringQualifiers>
-					<v8:Length>0</v8:Length>
-					<v8:AllowedLength>Variable</v8:AllowedLength>
-				</v8:StringQualifiers>
-			</Type>
-		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ВыбратьФайлСДискаИЗаписать" id="1">
@@ -556,16 +541,4 @@
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
-	<Parameters>
-		<Parameter name="ПутьКЗагружаемомуФайлу">
-			<Type>
-				<v8:Type>xs:string</v8:Type>
-				<v8:StringQualifiers>
-					<v8:Length>0</v8:Length>
-					<v8:AllowedLength>Variable</v8:AllowedLength>
-				</v8:StringQualifiers>
-			</Type>
-			<KeyParameter>true</KeyParameter>
-		</Parameter>
-	</Parameters>
 </Form>

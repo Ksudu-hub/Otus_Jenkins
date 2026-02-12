@@ -71,11 +71,6 @@
 				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="СкопироватьExtendedTooltip" id="24"/>
 			</Button>
-			<Button name="ФормаПоделитьсяФайл" id="52">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.ПоделитьсяФайл</CommandName>
-				<ExtendedTooltip name="ФормаПоделитьсяФайлРасширеннаяПодсказка" id="53"/>
-			</Button>
 			<Button name="Справка" id="13">
 				<Type>CommandBarButton</Type>
 				<SkipOnInput>false</SkipOnInput>
@@ -233,7 +228,6 @@
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
 				<Field>Список.Code</Field>
-				<Field>Список.Ref</Field>
 				<Field>Список.ИмяФайла</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
@@ -353,23 +347,6 @@
 				</v8:item>
 			</ToolTip>
 			<Action>СканироватьДокумент</Action>
-		</Command>
-		<Command name="ПоделитьсяФайл" id="5">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Поделиться</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Поделиться</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ПоделитьсяФайл</Action>
-			<CurrentRowUse>Use</CurrentRowUse>
-			<AssociatedTableElementId xsi:type="xs:string">Список</AssociatedTableElementId>
 		</Command>
 	</Commands>
 </Form>
